@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sandeep Malviya - Portfolio
 
-# Run and deploy your AI Studio app
+> **Tactile Intelligence:** Bridging the gap between high-performance mobile engineering and rigorous data science.
 
-This contains everything you need to run your app locally.
+## About Me
 
-View your app in AI Studio: https://ai.studio/apps/drive/1lvDJxS2K1VR2gpxLiv5LWKDOxT9crjP0
+I am a **Data Scientist** and **Mobile Engineer** based in Exeter, UK, recently graduating with an **MSc in Data Science (Distinction)** from the University of Exeter (Sept 2025).
 
-## Run Locally
+My journey began in mobile development, where I spent over 2 years architecting Flutter applications and shipping products that solved real-world problems. Today, I leverage that engineering rigor to build advanced Machine Learning models and data-driven solutions.
 
-**Prerequisites:**  Node.js
+I don't just train models; I understand the systems that generate the data and the interfaces that deliver the insights.
 
+**Core Competencies:**
+- **Data Science:** Python, TensorFlow, PyTorch, Computer Vision (CNNs), SQL
+- **Engineering:** Flutter, React, AWS/GCP, Docker, Real-time Systems (MQTT/BLE)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Portfolio Features
+
+This interactive portfolio is built with **React** and **Tailwind CSS**, featuring:
+
+*   **AI Persona Chat:** Chat with an AI version of me, powered by **Google Gemini**, capable of answering questions about my resume, projects, and technical skills in my specific tone of voice.
+*   **3D Interactive Gallery:** A custom-built project showcase with tilt-effect cards and glassmorphism UI.
+*   **Engineering Deep Dives:** Detailed case studies for each project, highlighting complexity, architecture, and code snippets.
+*   **Live GitHub Feeds:** Automatic fetching of my latest open-source work.
+
+## Contact
+
+Open for Graduate Data Science & Software Engineering roles in the UK.
+
+*   [LinkedIn](https://www.linkedin.com/in/sandy-competent/)
+*   [GitHub](https://github.com/SandyCompetent)
+*   [Email](mailto:sandy.competent@gmail.com)

@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sandeep Malviya | Data Scientist & Mobile Dev</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
         theme: {
           extend: {
             fontFamily: {
               sans: ['Inter', 'sans-serif'],
+              display: ['Space Grotesk', 'sans-serif'],
             },
             colors: {
               primary: '#3b82f6',
@@ -19,6 +20,22 @@
               dark: '#0f172a',
               darker: '#020617',
               card: '#1e293b',
+              'neon-blue': '#4f46e5',
+            },
+            animation: {
+              'fade-up': 'fadeUp 0.6s ease-out forwards',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              }
             }
           }
         }
@@ -29,19 +46,37 @@
         background-color: #020617;
         color: #e2e8f0;
       }
-      /* Custom scrollbar */
+      
+      /* High-end Scrollbar */
       ::-webkit-scrollbar {
-        width: 8px;
+        width: 6px;
       }
       ::-webkit-scrollbar-track {
-        background: #0f172a;
+        background: transparent;
       }
       ::-webkit-scrollbar-thumb {
-        background: #334155;
-        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #475569;
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      /* IDE Syntax Highlighting Base */
+      .token-keyword { color: #c678dd; }
+      .token-string { color: #98c379; }
+      .token-func { color: #61afef; }
+      .token-comment { color: #5c6370; font-style: italic; }
+      .token-number { color: #d19a66; }
+      
+      /* Glassmorphism Utilities */
+      .glass-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       }
     </style>
   <script type="importmap">
